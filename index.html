@@ -1,23 +1,241 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Second Assignment</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="styles/bootstrap.min.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Second Assignment</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/all.min.css">
 </head>
+
 <body>
-    <header>
+  
+  <header class="container">
 
-    </header>
-    <main>
+    <nav class="navbar navbar-expand-lg navbar-light container-fluid fw-bold">
 
-    </main>
-    <footer>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Backpack <span style="color: rgb(53, 151, 53);">Moon</span> </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" href="#">Products</a>
+            <a class="nav-link active" href="#">About Us</a>
+            <a class="nav-link active" href="#">Contact Us</a>
+          </div>
+        </div>
+      </div>
 
-    </footer>
-    <script src="js/bootstrap.bundle.js"></script>
+    </nav>
+
+    <section class="top-banner">
+
+      <div>
+        <div class="row container-fluid mt-5">
+          <div class="col-md-5 fw-bold mt-5">
+            <h1><span style="color: rgb(64, 64, 124);">BACKPACK</span> <br> <span
+                style="color: rgb(53, 151, 53);">MOON</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi cumque perspiciatis voluptas</p>
+            <button style="background-color: rgb(64, 64, 124);color: white;" class="btn px-3"><i
+                class="fas fa-shopping-cart"></i> BUY NOW</button>
+          </div>
+          <div class="col-md-5 mx-5">
+            <img class="img-fluid" src="images/top-banner.jpg" alt="Banner">
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+  </header>
+
+  <main class="container">
+
+    <section class="features">
+
+      <div class="row mt-5">
+        <div class="col-md-7 container-fluid">
+          <div style="max-width: 500px;max-height: 200px;" class="d-flex p-3 border rounded-3 bd-highlight m-3 shadow">
+            <div>
+              <img class="img-fluid" src="images/Logo, Icon/image 1.png" alt="image">
+            </div>
+            <div class="px-3">
+              <h3>Find the perfect fit</h3> <br>
+              <p>Everybody is different, which is why we offer different styles for everybody.</p>
+            </div>
+          </div>
+          <div style="max-width: 500px;max-height: 200px;" class="d-flex p-3 border rounded-3 bd-highlight m-3 shadow">
+            <div>
+              <img class="img-fluid" src="images/Logo, Icon/image 2.png" alt="image">
+            </div>
+            <div class="px-3">
+              <h3>Free exchanges</h3> <br>
+              <p>One of the many reasons you can shop with peace of mind.</p>
+            </div>
+          </div>
+          <div style="max-width: 500px;max-height: 200px;" class="d-flex p-3 border rounded-3 bd-highlight m-3 shadow">
+            <div>
+              <img class="img-fluid" src="images/Logo, Icon/image 3.png" alt="image">
+            </div>
+            <div class="px-3">
+              <h3>Contact our seller</h3> <br>
+              <p>They are here to help you. That's quite literally what we pay them for.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5 mt-5">
+          <img class="img-fluid mt-5" src="images/Logo, Icon/side-banner.png" alt="Side-banner">
+        </div>
+      </div>
+
+    </section>
+
+    <section class="products">
+
+      <section class="casual-backpacks">
+
+        <h1 style="color: rgb(64, 64, 124);" class="mt-5 mb-5">CASUAL BACKPACK</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col rounded-3">
+            <div class="card h-100 border rounded-3 p-3">
+              <img src="images/Photos/casual-1.png" class="card-img-top bg-light" alt="products">
+              <div class="card-body">
+                <h5 style="color: rgb(64, 64, 124);" class="card-title">Nike Sportswera Hayward</h5>
+                <p class="card-text">Here we have some dummy text to fill the space.</p>
+              </div>
+              <div class="d-flex justify-content-between p-3">
+                <span style="color: rgb(53, 151, 53);">
+                  <h1>$234</h1>
+                </span>
+                <button style="background-color: rgb(64, 64, 124);color: white;" class="btn px-3"><i
+                    class="fas fa-shopping-cart"></i> BUY NOW</button>
+              </div>
+            </div>
+          </div>
+          <div class="col rounded-3">
+            <div class="card h-100 border rounded-3 p-3">
+              <img src="images/Photos/casual-2.png" class="card-img-top bg-light" alt="products">
+              <div class="card-body">
+                <h5 style="color: rgb(64, 64, 124);" class="card-title">School Backpack</h5>
+                <p class="card-text">Here we have some dummy text to fill the space.</p>
+              </div>
+              <div class="d-flex justify-content-between p-3">
+                <span style="color: rgb(53, 151, 53);">
+                  <h1>$234</h1>
+                </span>
+                <button style="background-color: rgb(64, 64, 124);color: white;" class="btn px-3"><i
+                    class="fas fa-shopping-cart"></i> BUY NOW</button>
+              </div>
+            </div>
+          </div>
+          <div class="col rounded-3">
+            <div class="card h-100 border rounded-3 p-3">
+              <img src="images/Photos/casual-3.png" class="card-img-top bg-light" alt="products">
+              <div class="card-body">
+                <h5 class="card-title">CityLite Security Backpack</h5>
+                <p class="card-text">Here we have some dummy text to fill the space.</p>
+              </div>
+              <div class="d-flex justify-content-between p-3">
+                <span style="color: rgb(53, 151, 53);">
+                  <h1>$234</h1>
+                </span>
+                <button style="background-color: rgb(64, 64, 124);color: white;" class="btn px-3"><i
+                    class="fas fa-shopping-cart"></i> BUY NOW</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="travel-backpacks">
+
+        <h1 style="color: rgb(64, 64, 124);" class="mt-5 mb-5">TRAVEL BACKPACK</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col rounded-3">
+            <div class="card h-100 border rounded-3 p-3">
+              <img src="images/Photos/travel-1.png" class="card-img-top bg-light" alt="products">
+              <div class="card-body">
+                <h5 style="color: rgb(64, 64, 124);" class="card-title">Travel Sport</h5>
+                <p class="card-text">Here we have some dummy text to fill the space.</p>
+              </div>
+              <div class="d-flex justify-content-between p-3">
+                <span style="color: rgb(53, 151, 53);">
+                  <h1>$234</h1>
+                </span>
+                <button style="background-color: rgb(64, 64, 124);color: white;" class="btn px-3"><i
+                    class="fas fa-shopping-cart"></i> BUY NOW</button>
+              </div>
+            </div>
+          </div>
+          <div class="col rounded-3">
+            <div class="card h-100 border rounded-3 p-3">
+              <img src="images/Photos/travel-2.png" class="card-img-top bg-light" alt="products">
+              <div class="card-body">
+                <h5 style="color: rgb(64, 64, 124);" class="card-title">Jack Wolfskin West Highland</h5>
+                <p class="card-text">Here we have some dummy text to fill the space.</p>
+              </div>
+              <div class="d-flex justify-content-between p-3">
+                <span style="color: rgb(53, 151, 53);">
+                  <h1>$234</h1>
+                </span>
+                <button style="background-color: rgb(64, 64, 124);color: white;" class="btn px-3"><i
+                    class="fas fa-shopping-cart"></i> BUY NOW</button>
+              </div>
+            </div>
+          </div>
+          <div class="col rounded-3">
+            <div class="card h-100 border rounded-3 p-3">
+              <img src="images/Photos/travel-3.png" class="card-img-top bg-light" alt="products">
+              <div class="card-body">
+                <h5 style="color: rgb(64, 64, 124);" class="card-title">Hiking Trekking Camping Backpack</h5>
+                <p class="card-text">Here we have some dummy text to fill the space.</p>
+              </div>
+              <div class="d-flex justify-content-between p-3">
+                <span style="color: rgb(53, 151, 53);">
+                  <h1>$234</h1>
+                </span>
+                <button style="background-color: rgb(64, 64, 124);color: white;" class="btn px-3"><i
+                    class="fas fa-shopping-cart"></i> BUY NOW</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </section>
+
+    <section style="height: 400px;background-color: lightgray;"
+      class="contact-us d-flex justify-content-center align-items-center">
+
+      <div>
+        <h1>LET'S STAY IN TOUCH</h1>
+        <h5>Get updates on sales, specials and more</h5>
+        <input type="text" placeholder="Enter your email here">
+        <button style="background-color: rgb(64, 64, 124);color: white;" class="btn px-3">
+          SUBMIT
+        </button>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p class="d-flex justify-content-center">
+      <small>©Second Assignment for Complete Web Development Course by Jhankar Mahbub</small>
+    </p>
+  </footer>
+
+  <script src="js/bootstrap.bundle.js"></script>
+
 </body>
+
 </html>
